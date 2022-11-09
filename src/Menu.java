@@ -26,16 +26,13 @@ public class Menu {
         switch (input) {
             case 1:
                 input = 1;
-                System.out.print(" Enter line:");
                 logginThoseActions.addLine();
 
                 break;
 
             case 2:
                 input = 2;
-                logginThoseActions.logFileViewList();
                 System.out.println("");
-                System.out.println(" Overview over all lines:");
                 logginThoseActions.viewLine();
                 System.out.println("");
                 break;
@@ -43,20 +40,18 @@ public class Menu {
             case 3:
                 input = 3;
                 logginThoseActions.deleteLine();
-                System.out.println("You have now deleted the line from the list" );
-                logginThoseActions.logFileDelete();
                 break;
 
             case 4:
                 input = 4;
-                logginThoseActions.logFileSlut();
+                logginThoseActions.logFileExit();
+                logginThoseActions.logFileStart();
                 System.out.println(" End of session");
                 System.out.println("");
                 keepPlaying = false;
-                logginThoseActions.logFileStart();
                 break;
             default:
-                System.out.println("You typed something the system could not understand!");
+                System.out.println(" You typed something the system could not understand!");
         }
         printMenu();
         readChoice();

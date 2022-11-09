@@ -1,2 +1,7 @@
-2022-11-313 15:47:24 : Start program
-2022-11-313 15:47:29 Adding line:'ha' 
+2022-11-313 18:15:49 : Start program
+2022-11-313 18:15:53  Adding line :'Uggi' 
+2022-11-313 18:15:55 : Viewing all lines
+2022-11-313 18:15:58 : Deleting line
+2022-11-313 18:16:00 : Exiting Program
+2022-11-313 18:16:00 : Start program
+2022-11-313 18:16:02  Adding line :'' 
