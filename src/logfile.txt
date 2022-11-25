@@ -1,7 +1,33 @@
-2022-11-313 18:15:49 : Start program
-2022-11-313 18:15:53  Adding line :'Uggi' 
-2022-11-313 18:15:55 : Viewing all lines
-2022-11-313 18:15:58 : Deleting line
-2022-11-313 18:16:00 : Exiting Program
-2022-11-313 18:16:00 : Start program
-2022-11-313 18:16:02  Adding line :'' 
+2022-11-327 14:57:41 : Start program
+2022-11-327 14:57:46  Adding line :'gggg¨' 
+2022-11-327 14:58:13 : Start program
+2022-11-327 14:58:17  Adding line :'hej' 
+2022-11-327 14:58:20  Adding line :'hej' 
+2022-11-327 14:58:20  Adding line :'farvel' 
+2022-11-327 14:58:27 : Viewing all lines
+2022-11-327 14:59:32 : Start program
+2022-11-327 14:59:43 : Exiting Program
+2022-11-327 14:59:55 : Start program
+2022-11-327 15:00:27  Adding line :'fuck u' 
+2022-11-327 15:00:58  Adding line :'fuck u' 
+2022-11-327 15:00:58  Adding line :'gf' 
+2022-11-327 15:01:10 : Start program
+2022-11-327 15:01:12  Adding line :'jhgf' 
+2022-11-327 15:01:14 : Viewing all lines
+2022-11-327 15:01:22 : Viewing all lines
+2022-11-327 15:02:08  Adding line :'' 
+2022-11-327 15:02:11  Adding line :'' 
+2022-11-327 15:02:11  Adding line :'hgf' 
+2022-11-327 15:02:12  Adding line :'' 
+2022-11-327 15:02:12  Adding line :'hgf' 
+2022-11-327 15:02:12  Adding line :'hgf' 
+2022-11-327 15:02:14  Adding line :'' 
+2022-11-327 15:02:14  Adding line :'hgf' 
+2022-11-327 15:02:14  Adding line :'hgf' 
+2022-11-327 15:02:14  Adding line :'hgf' 
+2022-11-327 15:02:22 : Viewing all lines
+2022-11-327 15:02:37 : Start program
+2022-11-327 15:02:39  Adding line :'hg' 
+2022-11-327 15:02:41 : Viewing all lines
+2022-11-327 15:02:52 : Viewing all lines
+2022-11-329 09:20:54 : Start program

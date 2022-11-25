@@ -1,3 +1,5 @@
+import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
@@ -6,10 +8,10 @@ public class Menu {
     private String leadText;
     private String menuItem;
     private int input;
-    private boolean keepPlaying = false;
+    private boolean keeplaying = true;
     LogginThoseActions logginThoseActions = new LogginThoseActions();
 
-    public Menu(String menuHeader, String leadText, String menuItem) {
+    public Menu(String menuHeader, String leadText, String menuItem) throws IOException {
         this.menuHeader = menuHeader;
         this.leadText = leadText;
         this.menuItem = menuItem;
@@ -22,40 +24,45 @@ public class Menu {
     }
 
     public void readChoice() {
-        input = sc.nextInt();
-        switch (input) {
-            case 1:
-                input = 1;
-                logginThoseActions.addLine();
+        try{
+        while (keeplaying) {
+            printMenu();
+            input = sc.nextInt();
+            switch (input) {
+                case 1:
+                    input = 1;
+                    logginThoseActions.addLine();
 
-                break;
+                    break;
 
-            case 2:
-                input = 2;
-                System.out.println("");
-                logginThoseActions.viewLine();
-                System.out.println("");
-                break;
+                case 2:
+                    input = 2;
+                    System.out.println("");
+                    logginThoseActions.viewLine();
+                    System.out.println("");
+                    break;
 
-            case 3:
-                input = 3;
-                logginThoseActions.deleteLine();
-                break;
+                case 3:
+                    input = 3;
+                    logginThoseActions.deleteLine();
+                    break;
 
-            case 4:
-                input = 4;
-                logginThoseActions.logFileExit();
-                logginThoseActions.logFileStart();
-                System.out.println(" End of session");
-                System.out.println("");
-                keepPlaying = false;
-                break;
-            default:
-                System.out.println(" You typed something the system could not understand!");
+                case 4:
+                    input = 4;
+                    keeplaying = false;
+                    logginThoseActions.logFileExit();
+                    System.out.println("                  End of session");
+                    System.out.println("");
+
+                    break;
+                default:
+                    System.out.println("You typed something the system could not understand!");
+            }
         }
-        printMenu();
-        readChoice();
-        System.out.println("______________________________________________");
+        System.out.println("__________________________________________________");
+        } catch (InputMismatchException e) {
+            System.err.println("Warning you wrote something our systemmenu does not contain");
+        }
 
     }
 }
